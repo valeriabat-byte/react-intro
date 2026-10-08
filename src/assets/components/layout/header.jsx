@@ -6,7 +6,7 @@ export default function Header() {
         <div className="container text-center">
             <Logo />
             <nav className="m-4 uppercase flex gap-4 justify-between">
-                <a href="#">CHARACTERS</a>
+                <a href="#" className="no-underline">CHARACTERS</a>
                 <a href="#">COMICS</a>
                 <a href="#">MOVIES</a>
                 <a href="#">tv</a>

@@ -6,10 +6,10 @@ export default function ProductsList() {
         <div className="bg-neutral-900 text-white pb-8">
             {/** cover */}
             <div className="w-full h-80 overflow-hidden">
-                <img 
-                    src={jumbotronImg} 
-                    alt="DC-Comics" 
-                    className="w-full h-full object-cover object-top" 
+                <img
+                    src={jumbotronImg}
+                    alt="DC-Comics"
+                    className="w-full h-full object-cover object-top"
                 />
             </div>
 
@@ -20,10 +20,10 @@ export default function ProductsList() {
                         <div key={product.id} className="flex flex-col">
                             {/* contenitore immagine della stessa dimensione */}
                             <div className="w-full aspect-square overflow-hidden bg-neutral-800 mb-2">
-                                <img 
-                                    src={product.thumb} 
-                                    alt={product.title} 
-                                    className="w-full h-full object-cover object-top" 
+                                <img
+                                    src={product.thumb}
+                                    alt={product.title}
+                                    className="w-full h-full object-cover object-top"
                                 />
                             </div>
                             {/* titolo uniforme */}
@@ -35,8 +35,8 @@ export default function ProductsList() {
                 </div>
 
                 {/** bottone di fine lista */}
-                <div className="text-center mt-4">
-                    <button className="btn btn-primary px-4 py-2 font-bold">LOAD MORE</button>
+                <div className="text-center mt-8">
+                    <button className="rounded bg-blue-600 text-white hover:bg-blue-700 px-4 py-2 hover:cursor-pointer font-bold">LOAD MORE</button>
                 </div>
             </div>
         </div>
