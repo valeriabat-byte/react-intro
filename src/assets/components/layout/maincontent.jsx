@@ -1,6 +1,10 @@
+import ProductsList from '../ui/productsList';
+
 export default function MainContent() {
     return (
-        <div>maincontent</div>
+        <>
+            <ProductsList />
+        </>
     )
 }
 
